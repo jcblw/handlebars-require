@@ -18,20 +18,17 @@ require('handlebars-require')(require, Handlebars);
 In the template now you can do this.
 
 ```handlebars
-{{require './path/to/component'}} {{
--- This is a referance to a js file --}}
+{{require './path/to/component'}} {{!-- This is a referance to a js file --}}
 <div class="component-container">
-  {{MyComponent property=value}} {{
--- exported value is based of contructor.name --}}
+  {{MyComponent property=value}} {{!-- exported value is based of contructor.name --}}
 </div>
 ```
 
 Setting ephemeral helper name
 
-```handlbars
+```handlebars
 {{require './path/to/component' exports="NamedComponent"}}
-{{NamedComponent property=value}} {{
--- exports changed the ref --}}
+{{NamedComponent property=value}} {{!-- exports changed the ref --}}
 ```
 
 What is a Component

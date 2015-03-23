@@ -1,6 +1,6 @@
 {
   "name": "handlebars-require",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a helper that inject helper components into a template",
   "main": "index.js",
   "scripts": {

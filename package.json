@@ -1,0 +1,12 @@
+{
+  "name": "handlebars-require",
+  "version": "0.1.0",
+  "description": "a helper that inject helper components into a template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "hikki -f \"**/*.js\" -o docs -e node_modules"
+  },
+  "author": "Jacob Lowe",
+  "license": "MIT"
+}

@@ -1,0 +1,7 @@
+{{require './components/test' exports="TestComponent"}}
+{{require './components/list'}}{{!-- exports constructor.name --}}
+<div class="template-container">
+  {{!-- ephemeral helpers --}}
+  {{TestComponent label='foo'}}
+  {{List items="item 1,item 2" }}
+</div>

@@ -1,5 +1,7 @@
 Require Helper
 ==============
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/jcblw/handlebars-require.svg)](https://greenkeeper.io/)
 Require helper allows for including ephemeral or "components" into your application. Right now it is mostly a experiment to see if this typeof data into Handlebar templates. The api is a bit rough right now but that should be ephemeral as well.
 
 Usage
